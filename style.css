@@ -1,0 +1,58 @@
+.container{
+    margin-bottom: 100px;
+}
+.orange-bg{
+    background-color: #fceae8; 
+    border-radius: 15px;
+}
+.carousel-item{
+    padding: 20px 40px;
+}
+.price{
+    color: #ff136f;
+}
+.buy-now-button{
+    background-image: linear-gradient(to bottom, #FF589B 0%, #ff136f 100%);
+    color: #fceae8;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+}
+.cat1, .cat2, .cat3 {
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+.cat1{
+     background: #573333;
+background: linear-gradient(90deg, rgba(87, 51, 51, 1) 40%, rgba(102, 51, 51, 1) 43%, rgba(130, 52, 52, 1) 50%, rgba(149, 55, 22, 1) 57%, rgba(161, 57, 2, 1) 62%, rgba(194, 51, 47, 1) 68%);
+}
+.cat2{
+    background: #3884ba;
+background: linear-gradient(90deg, rgba(56, 132, 186, 1) 6%, rgba(48, 72, 119, 1) 36%, rgba(44, 44, 87, 1) 50%, rgba(56, 75, 93, 1) 62%, rgba(64, 95, 97, 1) 71%, rgba(92, 166, 112, 1) 100%);
+}
+.cat3{
+     background: #dccae6;
+background: linear-gradient(90deg, rgba(220, 202, 230, 1) 11%, rgba(221, 199, 229, 1) 23%, rgba(222, 196, 227, 1) 37%, rgba(200, 199, 226, 1) 58%, rgba(189, 201, 225, 1) 68%, rgba(156, 206, 223, 1) 100%);
+}
+.categories h1 {
+color: #fceae8;
+}
+.categories img { 
+    width: 100px;
+}
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+    border-radius: 10px;
+}
+#subscribe{
+    height: 300px;
+}
+#subscribe{
+    background: #dccae6;
+background: linear-gradient(90deg, rgba(220, 202, 230, 1) 11%, rgba(221, 199, 229, 1) 23%, rgba(222, 196, 227, 1) 37%, rgba(200, 199, 226, 1) 58%, rgba(189, 201, 225, 1) 68%, rgba(156, 206, 223, 1) 100%);
+}
+footer{
+    text-align: center;
+}
