@@ -19,6 +19,22 @@
     padding: 9px 25px;
     cursor: pointer;
 }
+.buy-now-button {
+    background-image: linear-gradient(to bottom, #FF589B 0%, #ff136f 100%);
+    color: #fceae8;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease; /* smooth hover effect */
+}
+
+/* Hover effect */
+.buy-now-button:hover {
+    background-image: linear-gradient(to bottom, #ff136f 0%, #FF589B 100%);
+    transform: scale(1.05); /* button একটু বড় হবে */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3); /* subtle shadow */
+}
 .cat1, .cat2, .cat3 {
     padding: 10px 30px;
     border-radius: 10px;
@@ -55,4 +71,14 @@ background: linear-gradient(90deg, rgba(220, 202, 230, 1) 11%, rgba(221, 199, 22
 }
 footer{
     text-align: center;
+}
+#shoes {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+/* Hover effect */
+#shoes:hover {
+    transform: translateY(-10px); /* উপরে উঠবে hover এ */
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3); /* shadow effect */
 }
