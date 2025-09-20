@@ -1,6 +1,10 @@
 .container{
     margin-bottom: 100px;
 }
+.logo{
+    width: 50px;
+    border-radius: 100px;
+}
 .orange-bg{
     background-color: #fceae8; 
     border-radius: 15px;
@@ -72,13 +76,22 @@ background: linear-gradient(90deg, rgba(220, 202, 230, 1) 11%, rgba(221, 199, 22
 footer{
     text-align: center;
 }
-#shoes {
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    cursor: pointer;
-}
-
 /* Hover effect */
-#shoes:hover {
+.supply360:hover {
     transform: translateY(-10px); /* উপরে উঠবে hover এ */
     box-shadow: 0 10px 20px rgba(0,0,0,0.3); /* shadow effect */
+    transition: transform 1s ease, box-shadow 0.50s ease;
+    cursor: pointer;
+}
+.Nike360:hover{
+    transform: translateY(-10px); /* উপরে উঠবে hover এ */
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3); /* shadow effect */
+    transition: transform 1s ease, box-shadow 0.50s ease;
+    cursor: pointer;
+}
+.red-airmix:hover{
+    transform: translateY(-10px); /* উপরে উঠবে hover এ */
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3); /* shadow effect */
+    transition: transform 1s ease, box-shadow 0.50s ease;
+    cursor: pointer;
 }
